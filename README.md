@@ -238,6 +238,9 @@ npm run dev
 
 🌐 Live Demo: http://localhost:5173/
 
+Backend API: https://your-backend-url.com
+Swagger: https://your-backend-url.com/swagger-ui/index.html
+
 # 👩‍💻 Developer
 
 **Shreya Sharma**
