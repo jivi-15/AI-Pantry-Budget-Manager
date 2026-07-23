@@ -236,6 +236,8 @@ npm run dev
 
 ---
 
+🌐 Live Demo: http://localhost:5173/
+
 # 👩‍💻 Developer
 
 **Shreya Sharma**
