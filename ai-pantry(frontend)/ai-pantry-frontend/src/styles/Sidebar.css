@@ -1,0 +1,65 @@
+.sidebar{
+    width:280px;
+    min-height:100vh;
+    background:#1e293b;
+    color:white;
+    padding:25px 15px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:24px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+
+    flex:1;
+}
+
+.sidebar li{
+    margin:15px 0;
+    border-radius:8px;
+}
+
+.sidebar li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.sidebar li a:hover{
+    background:#22c55e;
+}
+
+.active a{
+    background:#22c55e;
+}
+
+.logout-btn{
+    width:100%;
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:12px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    text-align:left;
+    margin-top:auto;
+    transition:0.3s;
+}
+
+.logout-btn:hover{
+    background:#dc2626;
+}
+

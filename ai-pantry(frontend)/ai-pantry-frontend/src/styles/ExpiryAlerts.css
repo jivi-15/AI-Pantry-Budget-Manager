@@ -1,0 +1,99 @@
+.expiry-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.alert-count{
+
+    background:#fee2e2;
+
+    color:#dc2626;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+}
+
+
+
+.alert-count span{
+
+    margin-left:8px;
+
+}
+
+
+
+.expiry-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+.expiry-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+    border-left:6px solid #ef4444;
+
+}
+
+
+
+.expiry-card h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.expiry-card p{
+
+    margin:10px 0;
+
+    color:#475569;
+
+}
+
+
+
+.empty-box{
+
+    background:white;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    font-size:20px;
+
+}

@@ -1,0 +1,93 @@
+.budget-page h1{
+
+    margin-bottom:10px;
+
+}
+
+
+
+.subtitle{
+
+    color:#64748b;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.budget-cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.budget-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.budget-card h2{
+
+    margin-top:15px;
+
+    color:#22c55e;
+
+}
+
+
+
+.chart-container{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.ai-tip{
+
+    background:#dcfce7;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    font-size:20px;
+
+}
+
+
+
+.ai-tip p{
+
+    margin-top:15px;
+
+    color:#166534;
+
+}

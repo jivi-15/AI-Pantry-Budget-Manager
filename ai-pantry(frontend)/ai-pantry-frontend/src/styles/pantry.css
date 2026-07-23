@@ -1,0 +1,124 @@
+.pantry-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.add-btn{
+
+    background:#22c55e;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
+
+.pantry-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+.pantry-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.pantry-card h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.pantry-card p{
+
+    margin:10px 0;
+
+    color:#475569;
+
+}
+
+
+
+.actions{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+
+
+.edit-btn,
+.delete-btn{
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+.edit-btn{
+
+    background:#3b82f6;
+
+    color:white;
+
+}
+
+
+
+.delete-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+}

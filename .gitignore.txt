@@ -1,0 +1,16 @@
+# Java
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# React
+node_modules/
+dist/
+
+# Environment
+.env
+
+# Secrets
+application.properties

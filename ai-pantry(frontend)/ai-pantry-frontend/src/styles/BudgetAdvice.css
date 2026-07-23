@@ -1,0 +1,112 @@
+.advisor-page h1{
+
+    margin-bottom:10px;
+
+}
+
+
+
+.subtitle{
+
+    color:#64748b;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+.advisor-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+
+.advisor-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+
+.advisor-card h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+.amount-box{
+
+    background:#dcfce7;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.amount-box strong{
+
+    display:block;
+
+    font-size:28px;
+
+    color:#16a34a;
+
+    margin-top:8px;
+
+}
+
+
+
+
+.advice-text{
+
+    background:#f1f5f9;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    line-height:1.6;
+
+}
+
+
+
+.empty-box{
+
+    background:white;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+}
