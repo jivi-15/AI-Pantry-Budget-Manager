@@ -1,6 +1,6 @@
 # 🌿 AI Pantry & Budget Manager
 
-An AI-powered Pantry and Budget Management System built using **Spring Boot**, **React**, and **MySQL**.
+An AI-powered Pantry and Budget Management System built using **Spring Boot**, **React**, and **PostgreSQL**.
 
 The application helps users manage pantry inventory, reduce food waste through expiry alerts, track expenses, visualize spending patterns, and receive AI-powered recipe recommendations and budgeting advice.
 
@@ -85,7 +85,7 @@ Provides smart budgeting suggestions based on spending habits.
 - JWT Authentication
 - Spring Data JPA
 - Hibernate
-- MySQL
+- PostgreSQL
 - Maven
 - Swagger / OpenAPI
 
